@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+nav {
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    border: 6px solid #6e00ad;
+}
+
+nav a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    font-size: 30px;
+    background: linear-gradient(#000000, #880076);
+    border-right: 2px solid #6e00ad;
+}
+
+nav a:last-child {
+    border-right: none;
+}
+/* AQUI SE AJUSTA EL TAMAÑO DEL BLOQUE DE REGISTRO INCLUIDOS BORDES, COLOR Y TAMAÑOS */
+.contenedor {
+    width: 600px;
+    margin: 20px auto;
+    background: linear-gradient(#880076, #ffffff);
+    border: 4px solid #000000;
+    border-radius: 100px;
+    padding: 70px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* EDITA EL TEXTO DE REGISTRAR Y DE ENVIAR CONFIRMACIÓN DE EMAIL*/
+.campos {
+    width: 100%;
+    font-size: 25px;
+
+}
+/* APARTADO DE SEPARACIÓN ENTRE MÁRGENES*/
+.fila {
+    margin-bottom: 20px;
+    width: 10px;
+}
+/* ESTE APARTADO ES PARA LAS LETRAS DE USUARIO Y EMAIL*/
+.campos label {
+    display: inline-block;
+    width: 100px;
+    font-size: 25px;
+    color: #000000;
+} 
+/*ESTE APARTADO ES PARA CAMBIAR EL TAMAÑO DEL BOTÓN DE REGISTRO */ 
+button {
+    padding: 15px 25px; 
+    font-size: 20px; 
+    cursor: pointer 10px ;
+}
